@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "cabinScatch";
+  src: url("./assets/fonts/CabinSketch-Regular.ttf");
+}
+body {
+  text-align: center;
+}
+body h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "cabinScatch";
+  font-size: 3em;
+  text-shadow: 5px 10px 10px rgba(31, 29, 29, 0.288);
+}
+body h1 svg {
+  fill: black !important;
+  margin: 0 0.3em;
+}
+body .MuiToolbar-root {
+  padding: 0;
+}
+body .MuiToolbar-root #tableTitle {
+  font-size: 2em;
+  padding: 0.5em 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgba(218, 218, 218, 0.808);
+}
+body .MuiTableCell-root {
+  text-align: left;
+}
+body .MuiTableCell-root .MuiTableSortLabel-active {
+  margin: 0 1em;
+}
+body table thead th {
+  width: 25%;
+}
+body .MuiSvgIcon-root {
+  fill: red;
+}
+body .MuiTableBody-root tr:hover {
+  cursor: pointer;
+}
+body .MuiTableSortLabel-iconDirectionAsc,
+body .MuiTableSortLabel-iconDirectionDesc {
+  position: absolute;
+  right: -30px;
+}
+body .MuiTableRow-root .MuiTableCell-paddingNone {
+  display: none;
+}
+body .MuiTableRow-root .MuiTableCell-paddingNone:nth-child(1) {
+  display: table-cell;
+  padding-left: 1.3em;
+}
+body .MuiTableCell-root {
+  text-align: center;
+}
+body .MuiTableCell-root img {
+  width: 4.5em;
+}
+body .MuiTableCell-root svg {
+  margin-left: 1em;
+  padding-right: 0;
+}
+body .MuiTableCell-root .MuiButtonBase-root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0;
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=App.css.map */
